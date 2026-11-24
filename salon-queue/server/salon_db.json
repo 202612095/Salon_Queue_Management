@@ -1,0 +1,158 @@
+{
+  "isQueueOpen": true,
+  "barbers": [
+    {
+      "id": "barber-1",
+      "name": "Ravi",
+      "photo": "👨‍🦱",
+      "status": "free",
+      "onDuty": true,
+      "currentTicketId": null
+    },
+    {
+      "id": "barber-2",
+      "name": "Amit",
+      "photo": "🧔",
+      "status": "free",
+      "onDuty": true,
+      "currentTicketId": null
+    },
+    {
+      "id": "barber-3",
+      "name": "Imran",
+      "photo": "💈",
+      "status": "free",
+      "onDuty": true,
+      "currentTicketId": null
+    }
+  ],
+  "services": [
+    {
+      "id": "srv-1",
+      "nameEn": "Haircut & Styling",
+      "nameGu": "હેરકટ અને સ્ટાઇલિંગ",
+      "duration": 30,
+      "price": 150,
+      "active": true,
+      "category": "Hair"
+    },
+    {
+      "id": "srv-2",
+      "nameEn": "Beard Trim & Shape",
+      "nameGu": "દાઢી ટ્રીમ અને શેપ",
+      "duration": 15,
+      "price": 80,
+      "active": true,
+      "category": "Beard"
+    },
+    {
+      "id": "srv-3",
+      "nameEn": "Royal Hair Spa",
+      "nameGu": "રોયલ હેર સ્પા",
+      "duration": 45,
+      "price": 400,
+      "active": true,
+      "category": "Spa"
+    },
+    {
+      "id": "srv-4",
+      "nameEn": "Classic Shave",
+      "nameGu": "ક્લાસિક શેવ",
+      "duration": 20,
+      "price": 100,
+      "active": true,
+      "category": "Beard"
+    },
+    {
+      "id": "srv-5",
+      "nameEn": "Face D-Tan & Massage",
+      "nameGu": "ફેસ ડી-ટેન અને મસાજ",
+      "duration": 25,
+      "price": 250,
+      "active": true,
+      "category": "Spa"
+    },
+    {
+      "id": "srv-6",
+      "nameEn": "Hair Color & Highlights",
+      "nameGu": "હેર કલર અને હાઇલાઇટ્સ",
+      "duration": 40,
+      "price": 350,
+      "active": true,
+      "category": "Color"
+    }
+  ],
+  "tickets": [
+    {
+      "id": "tkt-1795470428368-ss4zy",
+      "token": "S-1",
+      "customerName": "jitisha",
+      "phone": "8160351502",
+      "services": [
+        {
+          "id": "srv-1",
+          "nameEn": "Haircut & Styling",
+          "nameGu": "હેરકટ અને સ્ટાઇલિંગ",
+          "duration": 30,
+          "price": 150,
+          "active": true,
+          "category": "Hair"
+        },
+        {
+          "id": "srv-6",
+          "nameEn": "Hair Color & Highlights",
+          "nameGu": "હેર કલર અને હાઇલાઇટ્સ",
+          "duration": 40,
+          "price": 350,
+          "active": true,
+          "category": "Color"
+        }
+      ],
+      "preferredBarberId": "any",
+      "preferredBarberName": "Any barber",
+      "assignedBarberId": null,
+      "assignedBarberName": null,
+      "status": "Cancelled",
+      "createdAt": 1795470428368,
+      "calledAt": null,
+      "startedAt": null,
+      "completedAt": null,
+      "totalDuration": 70,
+      "totalPrice": 500
+    },
+    {
+      "id": "tkt-1795471014665-r2dck",
+      "token": "S-2",
+      "customerName": "abc",
+      "phone": "9501331025",
+      "services": [
+        {
+          "id": "srv-1",
+          "nameEn": "Haircut & Styling",
+          "nameGu": "હેરકટ અને સ્ટાઇલિંગ",
+          "duration": 30,
+          "price": 150,
+          "active": true,
+          "category": "Hair"
+        }
+      ],
+      "preferredBarberId": "any",
+      "preferredBarberName": "Any barber",
+      "assignedBarberId": null,
+      "assignedBarberName": null,
+      "status": "Cancelled",
+      "createdAt": 1795471014665,
+      "calledAt": null,
+      "startedAt": null,
+      "completedAt": null,
+      "totalDuration": 30,
+      "totalPrice": 150
+    }
+  ],
+  "tokenCounter": 3,
+  "todayStats": {
+    "customersServed": 0,
+    "noShows": 0,
+    "totalWaitTimeMinutes": 0
+  }
+}
